@@ -1,0 +1,125 @@
+body, h1, ul, input, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f7f9fc;
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    min-height: 100vh;      
+    padding: 20px;
+}
+
+.container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 450px; 
+}
+
+header h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 25px;
+}
+
+.input-group {
+    display: flex;
+    gap: 10px; 
+    margin-bottom: 25px;
+}
+
+input {
+    flex: 1; 
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+input:focus {
+    outline: none;
+    border-color: #007bff;
+}
+
+button#btn-adicionar {
+    padding: 12px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button#btn-adicionar:hover {
+    background-color: #0056b3;
+}
+
+
+ul#lista-tarefas {
+    list-style: none; 
+}
+
+ul#lista-tarefas li {
+    background-color: #fcfcfc;
+    border: 1px solid #eee;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    transition: all 0.3s;
+}
+
+ul#lista-tarefas li:hover {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.concluida {
+    text-decoration: line-through; 
+    color: #888;
+    background-color: #f1f1f1 !important;
+}
+
+.action-buttons {
+    display: flex;
+    gap: 5px;
+}
+
+ul#lista-tarefas li button {
+    padding: 6px 12px;
+    border-radius: 6px;
+    border: none;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button.btn-concluir {
+    background-color: #28a745;
+    color: white;
+}
+
+button.btn-concluir:hover {
+    background-color: #1e7e34;
+}
+
+button.btn-remover {
+    background-color: #dc3545;
+    color: white;
+}
+
+button.btn-remover:hover {
+    background-color: #a71d2a;
+}
