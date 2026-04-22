@@ -2,7 +2,7 @@
 
 Um aplicativo web interativo e responsivo para gerenciamento de tarefas diárias. Este projeto foi desenvolvido para consolidar conhecimentos práticos em manipulação de DOM e lógica de programação.
 
- **[Clique aqui para acessar o projeto online](/MateusHenriqueMachado/ToDoList)**
+ **[Clique aqui para acessar o projeto online](https://mateushenriquemachado.github.io/ToDoList/)**
 
 ## Tecnologias Utilizadas
 * **HTML5:** Estruturação semântica.
