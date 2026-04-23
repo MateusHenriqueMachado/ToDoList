@@ -1,16 +1,20 @@
-# Lista de Tarefas (To-Do List)
+# Interactive To-Do List 📝
 
-Um aplicativo web interativo e responsivo para gerenciamento de tarefas diárias. Este projeto foi desenvolvido para consolidar conhecimentos práticos em manipulação de DOM e lógica de programação.
+A clean and efficient task management application built to practice core web development concepts and DOM manipulation.
 
- **[Clique aqui para acessar o projeto online](https://mateushenriquemachado.github.io/ToDoList/)**
+## 🚀 Features
+- **Task Management:** Create, complete, and delete tasks in real-time.
+- **Visual Feedback:** Tasks change appearance when marked as completed.
+- **Interactive UI:** Smooth interactions with immediate updates to the list.
+- **Responsive Design:** Fully accessible and functional on mobile and desktop browsers.
 
-## Tecnologias Utilizadas
-* **HTML5:** Estruturação semântica.
-* **CSS3:** Estilização, Flexbox e design responsivo.
-* **JavaScript (Vanilla):** Lógica CRUD (Criar e Deletar tarefas), manipulação do DOM e eventos.
+## 🛠️ Technologies Used
+- **HTML5** (Semantic structure)
+- **CSS3** (Custom styling and layouts)
+- **JavaScript** (DOM Manipulation and Event Listeners)
 
-## Funcionalidades
-- Adicionar novas tarefas.
-- Marcar tarefas como concluídas (com feedback visual).
-- Excluir tarefas da lista.
-- Prevenção de envio de tarefas em branco.
+## 🔗 Live Demo
+Check out the live project here: [https://mateushenriquemachado.github.io/ToDoList/](https://mateushenriquemachado.github.io/ToDoList/)
+
+## 💻 Source Code
+Explore the code repository: [https://github.com/mateushenriquemachado/ToDoList](https://github.com/mateushenriquemachado/ToDoList)
